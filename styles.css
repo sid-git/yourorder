@@ -457,13 +457,13 @@ ul.navwide li,
 ul.narrow li {
 	display: inline-block;
 	position: relative;	
-	width:126px;
+	width:auto;
 	text-align:center;
 
 }
 ul.navwide li a,
 ul.narrow li a {
-	padding: 13px;
+	padding: 13px 23px;
 	display: block;
 	line-height: 19px;
 	color: #212b33; font-weight: bold; text-decoration: none; 
