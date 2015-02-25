@@ -3707,3 +3707,80 @@ a.url.product-image {
 div.home-box .eight.columns, div.home-feature .eight.columns {
 	width:460px;
 }
+
+.container .twelve.columns {
+width: 100%;
+}
+.option-bubble{
+	width:450px; float:left;	
+	background:rgba(242, 103, 34, 0.53);
+	padding: 30px;
+border-radius: 20px;
+margin:20px 30px 0px 0px;
+position:relative;
+color:white;
+}
+.gig-amount{
+	float:right;
+	border:1px solid;
+	border-radius:10px;
+	padding:0 10px;	
+	color:white;
+}
+.help-tooltip-text{
+	display:none;	
+	background: #f26722;
+font-size: 14px;
+line-height: 22px;
+padding: 10px;
+border-radius:10px;
+width:320px;
+margin-left:-160px;
+position:absolute;
+z-index:99;
+}
+.broadband{
+	width:auto;
+	float:left;
+	display:inline-block;	
+	color:#4C4B4B;
+}
+.help-tooltip-container{
+	float: left;
+	line-height: 32px;
+	font-size: 20px;
+	margin-left: 10px;
+}
+.option-bubble .min-cost{
+	clear:left;	
+}
+.option-bubble .price{
+	position:absolute;
+	right:30px;	
+	margin-top:5px;
+}
+.option-bubble .option-name{
+	color:#4C4B4B;	
+}
+
+.option-bubble h3{
+	margin-bottom:30px;	
+}
+.option-bubble .data-list{
+	list-style-type:disc;
+	padding-left:20px;	
+}
+.ordernow-btn{
+border: 1px solid;
+padding: 10px 20px;
+border-radius: 10px;
+font-size: 20px;
+width: 200px;
+display: block;
+margin: 0 auto;
+text-align: center;
+color:#4C4B4B;
+}
+.more-info:hover + .help-tooltip-text{
+	display:block;	
+}
