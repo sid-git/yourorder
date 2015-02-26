@@ -3784,3 +3784,25 @@ color:#4C4B4B;
 .more-info:hover + .help-tooltip-text{
 	display:block;	
 }
+
+.imintable td{
+	vertical-align: middle;
+padding: 5px 10px;
+border: 1px solid;
+width: 50%;	
+}
+.imintable{
+	width:800px;
+	margin:0 auto;	
+}
+
+.pdffile {
+background: url(../images/pdficon-small.jpg) no-repeat;
+padding-left: 35px;
+line-height: 28px;
+display: block;
+}
+
+#discount-coupon-form{
+	display:none;	
+}
